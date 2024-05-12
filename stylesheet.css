@@ -292,8 +292,13 @@
     }
 }
 @media screen and (max-width:425px){
+    .right-image-part{
+        grid-column-start: 1;
+        grid-column-end: 12;
+        padding-top: 15%;
+    }
     .right-image-part img{
-        width: 350px;
+        width: 300px;
     }
     .body3 .left-text-part .mobile-paragraph{
         display: block;
