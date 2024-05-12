@@ -86,6 +86,12 @@
     }
 }
 @media screen and (max-width:600px){
+    .inner{
+        display: flex;
+        background: #1b0f38;
+        position: relative;
+        padding: 15% 0;
+    }
     .top-heading-1 h1{
         font-size: 40px;
     }
@@ -206,7 +212,7 @@
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
     grid-template-rows: 1fr;
     color: rgba(255, 255, 255, 0.945);
-    padding: 10% 0;
+    padding: 10% 0 0 0;
     z-index: 1000;
 }
 .body3-top-heading{
@@ -311,4 +317,90 @@
     .body3 .left-text-part .laptop-paragraph{
         display: none;
     }
+}
+
+.inner-4{
+    display: flex;
+    position: relative;
+}
+.inner-4::before{
+    content: "";
+    width: 100%;
+    height: 100%;
+    background: #1b0f38;
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: .5;
+}
+.body4{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    padding: 3% 0 0 0;
+    color: rgba(255, 255, 255, 0.945);
+    z-index: 1000;
+}
+.body4 .image-left{
+        grid-column-start: 2;
+        grid-column-end: 6;
+}
+.body4 .image-left img{
+    margin: auto;
+    height: 70%;
+}
+.body4 .right-text{
+    grid-column-start: 7;
+    grid-column-end: 12;
+}
+.body4 .right-text h3{
+    font-size: 30px;
+}
+.body4 .right-text .laptop-paragraph{
+    padding-top: 5%;
+    color: rgba(255, 255, 255, 0.767);
+    letter-spacing: 1px;
+    font-family: arial;
+}
+@media screen and (max-width:1230px){
+    .body4 .image-left{
+        grid-column-start: 1;
+        grid-column-end: 6;
+    }
+}
+@media screen and (max-width:1050px){
+    .body4 .right-text{
+        grid-column-start: 8;
+        grid-column-end: 13;
+    }
+
+}
+@media screen and (max-width:880px){
+    .body4 .image-left{
+        grid-column-start: 1;
+        grid-row-start: 2;
+        grid-column-end: 13;
+        padding-top: 10%;
+        padding-left: 15%;
+    }
+    .body4 .image-left img{
+        height: 50%;
+     }
+    .body4 .right-text{
+        grid-column-start: 2;
+        grid-column-end: 13;
+        grid-row-start: 1;
+    }
+}
+@media screen and (max-width:450px){
+    .body4 .image-left{
+        grid-column-start: 1;
+        grid-row-start: 2;
+        grid-column-end: 13;
+        padding-top: 10%;
+        padding-left: 1%;
+    }
+    .body4 .image-left img{
+        height: 40%;
+     }
 }
