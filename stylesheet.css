@@ -103,8 +103,8 @@
 }
 
 #wrapper{
-    background: rgb(85,0,94);
-    background: linear-gradient(-180deg, rgb(50, 0, 56) 59%, rgb(104, 0, 116)  100%, rgb(50, 0, 56) 59%);
+    background: #1C1036;
+    background: linear-gradient(-180deg, #1C1036 9%, rgb(104, 0, 116)  100%, rgb(50, 0, 56) 100%);
 }
 .body2{
     display: grid;
