@@ -117,7 +117,8 @@
 .inner-2{
     display: flex;
     /* background: #55005e; */
-   
+    background: #1C1036;
+    background: linear-gradient(-180deg, #1C1036 9%, rgb(104, 0, 116)  100%, rgb(50, 0, 56) 100%);
     position: relative;
 }
 .inner-2::before{
@@ -196,6 +197,8 @@
 .inner-3{
     display: flex;
     position: relative;
+    background: #1C1036;
+    background: linear-gradient(-180deg, rgb(104, 0, 116)  50%, rgb(50, 0, 56) 100%);
 }
 .inner-3::before{
     content: "";
@@ -322,6 +325,9 @@
 .inner-4{
     display: flex;
     position: relative;
+    background: #1C1036;
+    background: linear-gradient(-180deg,rgb(50, 0, 56) 100%, rgb(104, 0, 116)  100% );
+
 }
 .inner-4::before{
     content: "";
