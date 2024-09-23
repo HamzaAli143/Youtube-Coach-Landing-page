@@ -470,6 +470,27 @@
 .body5-image-right img{
     width: 100%;
 }
+.body5 .papers_buttons{
+    grid-column-start: 2;
+    grid-column-end: 12;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    padding: 10% 0;
+}
+.body5 .papers_buttons button{
+    cursor: pointer;
+    padding: 10px 30px;
+    border-radius: 20px;
+    border: 2px solid white;
+    background-color: transparent;
+    color: white;
+    transition: .3s all ease;
+}
+.body5 .papers_buttons button:hover{
+    background-color: rgba(255, 255, 255, 0.479);
+}
 @media screen and (max-width:930px){
     .body5-left-text{
         grid-column-start: 2;
